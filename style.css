@@ -1,0 +1,111 @@
+body {
+  background-image: url("https://raw.githubusercontent.com/Pritam2205/CSS-A6/c41f6e2874e17a40387d1f1585cb9fbec05d6587/shara%20desert.jpg");
+  background-size: cover;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.manu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+.menu2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: white;
+  margin-right: 30px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+#men {
+  height: 30px;
+  width: 30px;
+}
+
+.main-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.p1 {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: white;
+}
+
+button {
+  color: black;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  height: 35px;
+  width: 160px;
+  font-weight: bold;
+  font-size: small;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15px;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.main-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  height: 200px;
+  width: 170px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+  background-image: url("https://raw.githubusercontent.com/Pritam2205/CSS-A6/c41f6e2874e17a40387d1f1585cb9fbec05d6587/pic-1.png");
+  position: relative;
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.img-2 {
+  background-image: url("https://raw.githubusercontent.com/Pritam2205/CSS-A6/c41f6e2874e17a40387d1f1585cb9fbec05d6587/pic-2.png");
+}
+
+.img-3 {
+  background-image: url("https://raw.githubusercontent.com/Pritam2205/CSS-A6/c41f6e2874e17a40387d1f1585cb9fbec05d6587/pic-3.png");
+}
+
+.img-4 {
+  background-image: url("https://raw.githubusercontent.com/Pritam2205/CSS-A6/c41f6e2874e17a40387d1f1585cb9fbec05d6587/pic-4.png");
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover,
+.img-4:hover {
+  transform: translateY(-10px);
+}
